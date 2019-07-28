@@ -309,4 +309,20 @@ p {
 	
 
 }
+#equation {
+	width: 100%;
+	height: 10vh;
+	margin-top: 1%;
+	font-size: 30px;
+	text-align: center;
+}
+
+#answer input {
+	width: 50%;
+	margin: 0 25%;
+	height: 10vh;
+	margin-top: 0;
+	font-size: 30px;
+	text-align: center;
+}
 } 
