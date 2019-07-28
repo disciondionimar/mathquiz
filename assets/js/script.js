@@ -43,8 +43,8 @@ equation9.answer = "5"
 
 
 let equation10 = new mathQuiz()
-equation11.equation = "0/10"
-equation11.answer = "0"
+equation10.equation = "0/10"
+equation10.answer = "0"
 
 let mathEquations  = [equation1,
 						equation2,
