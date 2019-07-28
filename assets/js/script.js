@@ -50,6 +50,11 @@ let equation11 = new mathQuiz()
 equation11.equation = "1*1200"
 equation11.answer = "1200"
 
+let equation12 = new mathQuiz()
+equation12.equation = "1*1200"
+equation12.answer = "1200"
+
+
 let mathEquations  = [equation1,
 						equation2,
 						equation3,
@@ -60,7 +65,8 @@ let mathEquations  = [equation1,
 						equation8,
 						equation9,
 						equation10,
-						equation1,
+						equation11,
+						equation12
 					
 ]
 
@@ -88,7 +94,8 @@ function startGames() {
 						equation8,
 						equation9,
 						equation11,
-						,
+						equation12
+						
 ]
 
 mathProblem()
@@ -180,12 +187,11 @@ if(mathProblems!=null && mathEquations != null){
 
 	
 return mathProblems
-} else if(mathEquations == null && mathEquations==null){
-
-	return; 
-
-}else {
+} else if(mathQuestion <= 10){
+	console.log(mathEquations)
 	mathProblem()
+		} else if(mathQuestion>10){
+			return;
 		}
 }
 
