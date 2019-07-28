@@ -46,6 +46,10 @@ let equation10 = new mathQuiz()
 equation10.equation = "0/10"
 equation10.answer = "0"
 
+let equation11 = new mathQuiz()
+equation11.equation = "1*1200"
+equation11.answer = "1200"
+
 let mathEquations  = [equation1,
 						equation2,
 						equation3,
@@ -56,6 +60,7 @@ let mathEquations  = [equation1,
 						equation8,
 						equation9,
 						equation10,
+						equation1,
 					
 ]
 
@@ -82,7 +87,7 @@ function startGames() {
 						equation7,
 						equation8,
 						equation9,
-						equation10,
+						equation11,
 						,
 ]
 
