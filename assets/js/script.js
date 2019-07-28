@@ -83,7 +83,7 @@ function startGames() {
 						equation8,
 						equation9,
 						equation10,
-						equation11,
+						,
 ]
 
 mathProblem()
