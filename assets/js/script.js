@@ -30,24 +30,21 @@ equation6.equation = "Find x: 2x+2=10"
 equation6.answer = "4"
 
 let equation7 = new mathQuiz()
-equation7.equation = "(True or False)   1 / (x - 9) = 0 for x = 9"
-equation7.answer = "False"
+equation7.equation = "50*66"
+equation7.answer = "3300"
 
 let equation8 = new mathQuiz()
 equation8.equation = "√81"
 equation8.answer = "9"
 
 let equation9 = new mathQuiz()
-equation9.equation = "Find x: √(x + 9) = 25"
-equation9.answer = "16"
+equation9.equation = "√(16 + 9)"
+equation9.answer = "5"
+
 
 let equation10 = new mathQuiz()
-equation10.equation = "Find x: √(x + 9) = 25"
-equation10.answer = "16"
-
-let equation11 = new mathQuiz()
-equation11.equation = "5x + 2(x + 7) = 14x – 7. Find x"
-equation11.answer = "3"
+equation11.equation = "0/10"
+equation11.answer = "0"
 
 let mathEquations  = [equation1,
 						equation2,
@@ -59,7 +56,7 @@ let mathEquations  = [equation1,
 						equation8,
 						equation9,
 						equation10,
-						equation11,
+					
 ]
 
 function startGames() {
